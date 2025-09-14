@@ -25,8 +25,8 @@ const About = () => {
   });
 
   return (
-    <div className="bg-gradient-to-b from-[#163b29] to-black pb-7 min-h-screen flex flex-col w-full text-white">
-      <div className="px-32">
+    <div className="bg-gradient-to-b  from-[#112f20] to-blackk pb-7 min-h-screen flex flex-col w-full text-white">
+      <div className="lg:px-32 px-10">
         <h1 className="text-center text-5xl mt-28">
           From Idea to Live Landing Page in{" "}
           <span className="text-[#1FFFA5]"> Just 5 Days</span>
@@ -97,14 +97,14 @@ const About = () => {
         </div>
       </div>
 
-      {/* Testimonials Section */}
-      <div className="lg:mt-36 lg:pl-20 pl-4">
-        <h1 className="text-5xl">What Our Clients Are Saying About Us</h1>
-        <p className="text-[#F5F5F5] text-[16px] mt-3">
+    
+      <div className="lg:mt-36 mt-20 lg:pl-20">
+        <h1 className="text-5xl px-4">What Our Clients Are Saying <span className="text-[#1FFFA5]"> About Us</span></h1>
+        <p className="text-[#F5F5F5] text-[16px] mt-3 px-4">
           Real feedback from real businesses who've seen real results.
         </p>
 
-        <div ref={sliderRef} className="keen-slider mt-12">
+        <div ref={sliderRef} className="keen-slider mt-12 pl-4">
           {/* card-1 */}
           <div className="keen-slider__slide bg-[#192420] rounded-[12px] px-6 pb-6">
             <div className="mt-8 mb-6">
@@ -239,7 +239,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="px-32 mt-36 mb-10 text-center">
+      <div className="lg:px-32 px-10 mt-36 mb-10 text-center">
        <h1 className="text-5xl">Got Questions<span className="text-[#1FFFA5]">? </span>  We’ve Got The Answers</h1>
 
       <div>

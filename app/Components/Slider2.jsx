@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Slider2 = () => {
   return (
-    <div className="bg-[#0A0F0D] text-[#fff] w-full py-24">
+    <div className="bg-[#0A0F0D] text-[#fff] py-24 w-full">
       <h1 className="text-center text-5xl">Case Studies</h1>
       <p className="text-center text-[16px]">See the designs that delivered results</p>
 
@@ -56,7 +57,9 @@ const Slider2 = () => {
         </div>
       </div>
       <div className="mt-10 flex justify-center">
-        <button className="text-black bg-[#1FFFA5] py-4 px-8 rounded-[8px]">I want similar results</button>
+        <button className="text-black flex justify-center items-center gap-2 bg-[#1FFFA5] py-4 px-8 rounded-[8px]">
+          I want similar results <FaArrowRight />
+          </button>
       </div>
 
 
@@ -85,8 +88,8 @@ const Slider2 = () => {
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
-              <button className="bg-[#003D25] text-[#00E58A] px-8 py-3 rounded-xl hover:bg-[#005432] transition">
-                Start my project
+              <button className="bg-[#003D25] flex justify-center items-center gap-2 text-[#00E58A] px-8 py-3 rounded-xl hover:bg-[#005432] transition">
+                Start my project <FaArrowRight />
               </button>
             </div>
           </div>
@@ -114,8 +117,8 @@ const Slider2 = () => {
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
-              <button className="bg-[#1FFFA5] text-black px-8 py-3 rounded-xl hover:bg-[#0FCC8F] transition">
-                Start my project
+              <button className="bg-[#1FFFA5] flex justify-center items-center gap-2 text-black px-8 py-3 rounded-xl hover:bg-[#0FCC8F] transition">
+                Start my project <FaArrowRight />
               </button>
             </div>
           </div>
@@ -140,8 +143,8 @@ const Slider2 = () => {
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
-              <button className="bg-[#003D25] text-[#00E58A] px-8 py-3 rounded-xl hover:bg-[#005432] transition">
-                Start my project
+              <button className="bg-[#003D25] flex justify-center items-center gap-2 text-[#00E58A] px-8 py-3 rounded-xl hover:bg-[#005432] transition">
+                Start my project <FaArrowRight />
               </button>
             </div>
           </div>
@@ -170,7 +173,7 @@ const Slider2 = () => {
         <h1 className="text-center text-5xl">Special Offer For Early Clients</h1>
         <p className="text-center text-[16px] mt-5">Get 10% OFF + Free Hosting Setup when you book this week.</p>
         <div className="flex justify-center mt-12">
-          <button className="px-8 py-4 bg-[#1FFFA5] text-black rounded-2xl">Claim my 10% discount</button>
+          <button className="px-8 py-4 bg-[#1FFFA5] text-black rounded-2xl flex justify-center items-center gap-2">Claim my 10% discount <FaArrowRight /></button>
         </div>
       </div>
 
