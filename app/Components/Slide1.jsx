@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 
 const Slide1 = () => {
@@ -14,7 +14,7 @@ const Slide1 = () => {
       <Swiper
         modules={[ Autoplay]}
         spaceBetween={20}
-        slidesPerView={2} // 👈 প্রতি স্লাইডে ২টা ইমেজ
+        slidesPerView={2}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop
         className="rounded-2xl shadow-lg"

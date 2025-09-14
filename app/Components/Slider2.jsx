@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Slider2 = () => {
   return (
-    <div className="bg-[#0A0F0D] text-[#fff] my-24">
+    <div className="bg-[#0A0F0D] text-[#fff] w-full py-24">
       <h1 className="text-center text-5xl">Case Studies</h1>
       <p className="text-center text-[16px]">See the designs that delivered results</p>
 
