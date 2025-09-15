@@ -7,7 +7,7 @@ import Slider2 from "./Components/Slider2";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-[#112f20] to-black min-h-screen flex flex-col items-center justify-center">
+    <div className=" bg-black min-h-screen flex flex-col items-center justify-center">
 
       <Header/>
       <Slide1/>

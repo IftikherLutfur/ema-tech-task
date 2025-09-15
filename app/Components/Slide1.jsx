@@ -50,16 +50,16 @@ const Slide1 = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://res.cloudinary.com/dgisrhgoe/image/upload/v1757745835/f589fcf4efd8a0200cb93bf407a117471251abb2_abi4wo.png"
+            src="https://res.cloudinary.com/dgisrhgoe/image/upload/v1757929617/Size_Default_2_yrjf7g.png"
             alt="Slide 3"
             width={960}
             height={540}
-            className="w-full h-auto object-cover"
+            className="w-full h-[390px] object-cover"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://res.cloudinary.com/dgisrhgoe/image/upload/v1757745823/05277202ae95eea6fb8fa62238bee7417cfd9db9_z2axbc.png"
+            src="https://res.cloudinary.com/dgisrhgoe/image/upload/v1757745835/f589fcf4efd8a0200cb93bf407a117471251abb2_abi4wo.png"
             alt="Slide 3"
             width={960}
             height={540}

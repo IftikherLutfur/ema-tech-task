@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Newsletter = () => {
     return (
-        <div className="bg-[#032115] w-full py-24 ">
+        <div className="bg-gradient-to-b from-[#1b3c2c] to-black w-full py-24 ">
             <h1 className="text-center lg:text-7xl text-5xl text-white lg:px-32">Ready to Turn Visitors Into
                 <span className="text-[#1FFFA5]"> Real Customers?</span>
             </h1>

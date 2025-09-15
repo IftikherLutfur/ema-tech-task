@@ -17,7 +17,7 @@ const BusinessSection = () => {
       </div>
 
       {/* Grid Section */}
-      <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 px-5 max-w-6xl mx-auto">
+      <div className="mt-10  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 px-5 max-w-6xl mx-auto">
         {/* Card 1 */}
         <div className="bg-[#192420] border border-[#2A3C36] shadow-md p-6 rounded-[8px] hover:shadow-lg transition">
           <Image

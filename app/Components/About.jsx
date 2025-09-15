@@ -25,7 +25,7 @@ const About = () => {
   });
 
   return (
-    <div className="bg-gradient-to-b  from-[#112f20] to-blackk pb-7 min-h-screen flex flex-col w-full text-white">
+    <div className="bg-gradient-to-b from-[#142c20] to-black pb-7 min-h-screen flex flex-col w-full text-white">
       <div className="lg:px-32 px-10">
         <h1 className="text-center text-5xl mt-28">
           From Idea to Live Landing Page in{" "}
