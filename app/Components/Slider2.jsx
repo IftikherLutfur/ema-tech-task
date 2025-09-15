@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaCircle } from "react-icons/fa6";
 
 const Slider2 = () => {
   return (
@@ -59,7 +59,7 @@ const Slider2 = () => {
       <div className="mt-10 flex justify-center">
         <button className="text-black flex justify-center items-center gap-2 bg-[#1FFFA5] py-4 px-8 rounded-[8px]">
           I want similar results <FaArrowRight />
-          </button>
+        </button>
       </div>
 
 
@@ -81,10 +81,22 @@ const Slider2 = () => {
               </div>
               <hr className="border-gray-700" />
               <ul className="mt-8 space-y-3 text-gray-300">
-                <li>1 Landing Page (Design + Development)</li>
-                <li>Hosting Deployment</li>
-                <li>5-Day Delivery</li>
-                <li>Basic Support</li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  1 Landing Page (Design + Development)
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Hosting Deployment
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  5-Day Delivery
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Basic Support
+                </li>
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
@@ -109,11 +121,26 @@ const Slider2 = () => {
               <p className="text-sm text-gray-400 mb-8">Best balance of value & features</p>
               <hr className="border-gray-700" />
               <ul className="mt-8 space-y-3 text-gray-300">
-                <li>Everything in Basic</li>
-                <li>Ectra Custom Section</li>
-                <li>Free Hosting Setup</li>
-                <li>Free Consultation call</li>
-                <li>Priority Support</li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Everything in Basic
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Extra Custom Section
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Free Hosting Setup
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Free Consultation Call
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Priority Support
+                </li>
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
@@ -135,12 +162,28 @@ const Slider2 = () => {
               </div>
               <hr className="border-gray-700" />
               <ul className="mt-8 space-y-3 text-gray-300">
-                <li>Everything in Standard</li>
-                <li>Advanced Animations</li>
-                <li>Priority Delivery (3 Days)</li>
-                <li>6 Months Free Support</li>
-                <li>Performance optimization</li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Everything in Standard
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Advanced Animations
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Priority Delivery (3 Days)
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  6 Months Free Support
+                </li>
+                <li className="flex items-center gap-2">
+                  <FaCircle className="text-[#1FFFA5] text-[8px]" />
+                  Performance Optimization
+                </li>
               </ul>
+
             </div>
             <div className="mt-8 flex justify-center">
               <button className="bg-[#003D25] flex justify-center items-center gap-2 text-[#00E58A] px-8 py-3 rounded-xl hover:bg-[#005432] transition">
@@ -155,7 +198,7 @@ const Slider2 = () => {
 
       <div className=" lg:px-28 px-10 flex items-center my-10 gap-5">
         <span>
-           <Image
+          <Image
             src="https://res.cloudinary.com/dgisrhgoe/image/upload/v1757747070/Lightning_vkduhw.png"
             alt="Lightning Icon"
             width={40}
