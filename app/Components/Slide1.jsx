@@ -54,7 +54,7 @@ const Slide1 = () => {
             alt="Slide 3"
             width={960}
             height={540}
-            className="w-full h-[590px] object-cover"
+            className="w-full h-auto object-cover"
           />
         </SwiperSlide>
         <SwiperSlide>
